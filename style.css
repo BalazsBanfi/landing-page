@@ -1,0 +1,177 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.back {
+    margin: 0px auto;
+    height: 100vh;
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.header1 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 1rem 6rem;
+}
+
+.header2 {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    padding: 1rem 6rem;
+    
+}
+
+.awes {
+    margin-right: 1rem;
+    max-width: 50%;
+}
+
+.awes h1 {
+    width: 100%;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    
+}
+
+.awes p {
+    color: #f9faf8;
+    font-size: 18px;
+    width: 100%;
+    
+}
+
+.img {
+    width: 48%;
+    margin: 20px;
+    
+}
+
+.imgplace {
+    padding: 15px;
+    margin: 20px auto;
+    width: 300px;
+    height: 200px;
+    background-color: #5f4f3f;
+    text-align: center;
+    
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.links a {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-left: 1.5rem;
+}
+
+input {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 30px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 18px;
+}
+
+.middle {
+    color: #1f2937;
+    background-color: white;
+
+}
+
+.middleh1 {
+    margin: 30px; 
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    text-align: center;
+}
+
+
+.info {
+    padding: 15px;
+    margin: 20px auto;
+    width: 170px;
+    height: 150px;
+    border: 3px solid #2b7a9e;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.gallery p {
+    max-width: 50%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 20px;
+
+}
+
+.quote p {
+    width: 60%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#thor {
+    text-align: end;
+    font-weight: 800;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    height: 200px;
+    background-color: #3882f6;
+    margin: 40px auto;
+    border-radius: 8px;
+}
+
+.bottext {
+    width: 70%;
+    color: #f9faf8;
+}
+
+.botsubm input {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 3rem;
+    text-align: center;
+    color: #f9faf8;
+}
