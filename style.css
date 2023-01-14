@@ -30,7 +30,7 @@ a {
     align-items: center;
     justify-content: center;
     min-height: 200px;
-    padding: 1rem 6rem;
+    padding: 3rem 6rem;
     
 }
 
@@ -90,9 +90,14 @@ input {
     font-size: 18px;
 }
 
+input:hover {
+    background-color: #586266;
+}
+
 .middle {
     color: #1f2937;
     background-color: white;
+    padding: 3rem 6rem;
 
 }
 
@@ -133,7 +138,7 @@ input {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    padding: 20px;
+    padding: 3rem 6rem;
 
 }
 
